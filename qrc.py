@@ -2,7 +2,7 @@ import pyqrcode
 import pandas as pd
 
 def  createQRCode():
-	df = pd.read_csv("/home/arcanum/Téléchargements/TP/Python/CSV/client.csv")
+	df = pd.read_csv("file_path")
 	
 	for index, values in df.iterrows():
 
